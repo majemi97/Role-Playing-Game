@@ -59,8 +59,9 @@ function goTown() {
 function goStore() {
   update(locations[1]);
 }
+
 function goCave() {
-  console.log("Going to cave.");
+  update(locations[2]);
 }
 function fightDragon() {
   console.log("Fighting dragon.");
