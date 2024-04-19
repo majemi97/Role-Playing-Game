@@ -103,6 +103,7 @@ function buyWeapon() {
     goldText.innerText = gold;
     let newWeapon = weapons[currentWeapon];
     text.innerText = "You now have a new weapon.";
+    newWeapon = weapons[currentWeapon].name
   }
 }
 
