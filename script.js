@@ -145,6 +145,10 @@ function sellWeapon() {
     }
   }
 
+function goFight() {
+  
+}
+
 function fightSlime() {
 
 }
