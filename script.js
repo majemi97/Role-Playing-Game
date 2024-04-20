@@ -237,3 +237,6 @@ function restart() {
   healthText.innerText = health;
   goTown();
 }
+function getMonsterAttackValue(level) {
+
+}
