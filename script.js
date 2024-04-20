@@ -239,7 +239,8 @@ function restart() {
 }
 
 function getMonsterAttackValue(level) {
-  const hit =(level * 5) - (Math.floor(Math.random() * xp));
+  const hit = (level * 5) - (Math.floor(Math.random() * xp));
   console.log(hit);
-  return(hit);
+  // ternary operator
+return hit > 0 ? hit : 0;
 }
