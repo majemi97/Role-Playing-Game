@@ -237,6 +237,7 @@ function restart() {
   healthText.innerText = health;
   goTown();
 }
-function getMonsterAttackValue(level) {
 
+function getMonsterAttackValue(level) {
+  const hit =(level * 5) - (Math.floor(Math.random() * xp));
 }
