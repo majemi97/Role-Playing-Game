@@ -249,6 +249,10 @@ function easterEgg() {
   update(locations[7]);
 }
 
+function pick(guess) {
+
+}
+
 function getMonsterAttackValue(level) {
   const hit = (level * 5) - (Math.floor(Math.random() * xp));
   console.log(hit);
