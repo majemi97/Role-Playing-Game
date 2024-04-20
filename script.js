@@ -247,3 +247,7 @@ function getMonsterAttackValue(level) {
   // ternary operator
 return hit > 0 ? hit : 0;
 }
+
+function isMonsterHit() {
+  return Math.random() > .2|| health < 20;
+}
